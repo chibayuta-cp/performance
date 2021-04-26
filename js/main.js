@@ -32,7 +32,33 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
+  //AOS add
+
   AOS.init();
+
+
+  // Send messaga add 
+    $('#form').submit(function (event) {
+        var formData = $('#form').serialize();
+        $.ajax({
+          url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSefiWrmnKtuVPNLERD_axHCs3DnlOqavVYZVEaHm7YtGkg-XA/formResponse",
+          data: formData,
+          type: "POST",
+          dataType: "xml",
+          statusCode: {
+            0: function () {
+              $(".sent-message").slideDown();
+              $(".submit-btn").fadeOut();
+              //window.location.href = "thanks.html";
+            },
+            200: function () {
+              $(".false-message").slideDown();
+            }
+          }
+        });
+        event.preventDefault();
+      });
+
 
 
 });

@@ -437,10 +437,7 @@ hr {
 
 /* Contact Form */
 
-.contact-form {
-  /* width: 500px; */
-
-}
+.contact-form {}
 
 .contact-form label {
   color: #999;
@@ -546,6 +543,19 @@ hr {
   margin: 15px 0;
 }
 
+.fix {
+  width: 400px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+  .fix {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+
 /* Copyrights */
 
 #copyrights {
@@ -565,8 +575,4 @@ hr {
 
 .credits {
   color: #999;
-}
-
-input {
-  width: 200px;
 }
