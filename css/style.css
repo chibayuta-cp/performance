@@ -335,28 +335,24 @@ hr {
   margin-top: 40px;
 }
 
-/* Grey2 Section */
+/* Last Section */
 
-#grey2 {
+#last {
   background: #f3f3f3;
   padding-bottom: 80px;
   padding-top: 80px;
 }
 
-.icon {
-  font-size: 40px;
-}
-
-#grey2 h5 {
+#last h5 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-#grey2 .row {
+#last .row {
   text-align: center;
 }
 
-#grey2 p {
+#last p {
   font-size: 12px;
   margin-top: 40px;
 }
@@ -604,11 +600,4 @@ hr {
 
 .credits {
   color: #999;
-}
-
-/* タイトル */
-
-.title-title {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
 }
