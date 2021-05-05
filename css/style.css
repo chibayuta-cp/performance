@@ -279,6 +279,34 @@ hr {
   }
 }
 
+.header-nav {
+  text-align: right;
+}
+
+.header-nav ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+
+.hader-nav li {
+  margin-right: 45px;
+
+}
+
+.hader-nav a {
+  color: black;
+}
+
+.hader-nav a:hover {
+  opacity: 0.5;
+}
+
+.hader-nav a:active {
+  position: relative;
+  top: 3px;
+}
+
 /* BLACK SECTION */
 
 #blk {
