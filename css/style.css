@@ -335,31 +335,6 @@ hr {
   margin-top: 40px;
 }
 
-/* Last Section */
-
-#last {
-  background: #f3f3f3;
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-
-#last h5 {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-#last .row {
-  text-align: center;
-}
-
-#last p {
-  font-size: 12px;
-  margin-top: 40px;
-}
-
-
-
-
 
 /*PORTFOLIO SECTION*/
 
@@ -426,41 +401,30 @@ hr {
   text-transform: uppercase;
 }
 
-/* FEATURED SECTION */
 
-#featured {
-  padding-bottom: 0;
-  background: url("../img/featured.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
-  color: #b9b9b9;
-  text-align: center;
+/* Contact Form */
+/* Last Section */
+
+#contactform {
+  background: #f3f3f3;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
-#featured .overlay {
-  padding-bottom: 0;
-  background: none repeat scroll 0 0 rgba(40, 40, 40, 0.9);
-  padding-top: 100px;
-  width: 100%;
-  height: 100%;
-}
-
-#featured h5 {
-  color: #f7ca18;
+#contactform h5 {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-#featured p {
-  color: #b9b9b9;
+#contactform .row {
+  text-align: center;
 }
 
-#featured hr {
-  border: 1px solid #f7ca18;
-  width: 100px;
+#contactform p {
+  font-size: 12px;
+  margin-top: 40px;
 }
 
-/* Contact Form */
 
 .contact-form {}
 
