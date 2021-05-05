@@ -287,7 +287,7 @@ hr {
   padding-top: 80px;
 }
 
-#blk h5 {
+#blk h2 {
   color: #f7ca18;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -334,6 +334,35 @@ hr {
   font-size: 12px;
   margin-top: 40px;
 }
+
+/* Grey2 Section */
+
+#grey2 {
+  background: #f3f3f3;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+#grey2 h5 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#grey2 .row {
+  text-align: center;
+}
+
+#grey2 p {
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+
+
 
 
 /*PORTFOLIO SECTION*/
@@ -575,4 +604,11 @@ hr {
 
 .credits {
   color: #999;
+}
+
+/* タイトル */
+
+.title-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
