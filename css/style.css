@@ -281,12 +281,14 @@ hr {
 
 .header-nav {
   text-align: right;
+  margin: 20px;
 }
 
 .header-nav ul {
-  display: flex;
   list-style: none;
   font-weight: bold;
+  color: #f7ca18;
+
 }
 
 .hader-nav li {
@@ -295,10 +297,11 @@ hr {
 }
 
 .hader-nav a {
-  color: black;
+  color: #f7ca18;
 }
 
 .hader-nav a:hover {
+  color: #f7ca18;
   opacity: 0.5;
 }
 
