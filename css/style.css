@@ -340,6 +340,16 @@ hr {
   color: #f7ca18;
 }
 
+/* Concept section */
+#concept h2 {
+  margin-top: 50px;
+}
+
+#concept p {
+  text-align: center;
+}
+
+
 /* Service Section */
 
 #service h2 {
