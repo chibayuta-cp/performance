@@ -341,6 +341,13 @@ hr {
 }
 
 /* Concept section */
+#concept {
+  background: #f3f3f3;
+  padding-bottom: 80px;
+  padding-top: 20px;
+
+}
+
 #concept h2 {
   margin-top: 50px;
 }
