@@ -340,6 +340,41 @@ hr {
   color: #f7ca18;
 }
 
+/* Service Section */
+
+#service h2 {
+  margin-top: 50px;
+}
+
+.service-main {
+  background: #fff;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  display: flex;
+
+}
+
+.service-card {
+  margin: auto;
+  text-align: center;
+}
+
+.service-card h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.service-card img {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.service-card p {
+  text-align: left;
+}
+
 /* Grey Section */
 
 #grey {
