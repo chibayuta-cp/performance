@@ -411,6 +411,13 @@ hr {
   margin-top: 40px;
 }
 
+#grey table {
+  margin: auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
 
 /*PORTFOLIO SECTION*/
 
